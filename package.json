@@ -1,5 +1,5 @@
 {
-  "name": "lyrico_ocean",
+  "name": "lyric_ocean",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
