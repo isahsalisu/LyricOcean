@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-
-import Navbar from "./components/layout/Navbar";
+import "./App.css";
+import Header from "./components/layout/Header";
 import HomePage from "./components/layout/HomePage";
 
 //import { Provider } from "./context";
@@ -11,8 +11,8 @@ function App() {
   return (
     <>
     {/* <Provider> */}
-      <div className="container">
-        <Navbar />
+      <div className="App">
+        <Header />
         <Routes>
           <Route exact path="/" element={<HomePage/>} />
         </Routes>
