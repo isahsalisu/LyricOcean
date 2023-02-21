@@ -5,6 +5,7 @@
     width: 200px;
     background-color: #df0a0a !important ;
     height: 100%;
+    z-index: 10;
   }
   .navbar-brand{
     margin-bottom: 120px;
@@ -69,3 +70,22 @@
   .btn{
     color: #df0a0a;
   }
+
+  form{
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 2px solid #f2f2f2;
+    -webkit-box-shadow: 0 1px 4px rgb(0, 0, 0, 0.3), 0 0 40px rgb(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgb(0, 0, 0, 0.3), 0 0 40px rgb(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.1), 0 0 40px rgb(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+  }
+
+  .boto{
+
+    color: #df0a0a !important;
+  
+  }
+  
