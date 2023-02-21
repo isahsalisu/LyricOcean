@@ -1,32 +1,71 @@
-.App-header {
-    background-color: #0693da;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: #df0a0a !important ;
+    height: 100%;
   }
-  
-  .navbar {
+  .navbar-brand{
+    margin-bottom: 120px;
+  }
+  .nav-item-1{
+    position: fixed;
+    margin-left: -100px;
+  }
+  .nav-item-2{
+    position: fixed;
+    margin-left: -100px;
+    margin-top: 70px;
+  }
+  .nav-item-3{
+    position: fixed;
+    margin-left: -100px;
+    margin-top: 140px;
+  }
+
+  .image{ 
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    background-image: url(components/tracks/ocean.jpg);
+    background-size: cover;
+    margin: 0 30% 0 40%;
+    box-shadow: 20px 20px 20px#df0a0a;
+  }
+
+  .lyric{
+    position: relative;
+    margin: 0px 0px 0px 350px;
+    padding: 20px;
+    color: #df0a0a;
+    font-size: 300%;
+  }
+  .ocean{
+    font-size: 200%;
+    margin: 0px 0px 0px -30px;
+  }
+  .your{
+    color: #df0a0a;
+    padding: 150px 400px;
+  }
+  .deep{
+    color: #61dafb;
+ 
+  }
+
+  .card{
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    padding: 0 50px 0 30px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    background-color: #df0a0a;
   }
-  
-  .nav-link {
-    transform: rotate(-90deg);
-    transform-origin: top left;
-    margin: 10px 0;
-    padding: 0;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
+  .card-title{
     color: #61dafb;
+  }
+  .btn{
+    color: #df0a0a;
   }
