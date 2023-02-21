@@ -40,7 +40,18 @@ import Track from '../tracks/Track';
 const Tracks = (props) => {
   return (
     <>
-      <h3 style={{ color: "#212529", fontWeight: "bold" }} className="text-center mb-4">All Tracks</h3>
+      <div className="image">
+      <div className="col-md-6">
+        <h1 className='your'>GET YOUR<h1 className='deep'>MUSIC DEEP</h1></h1>
+        </div>
+        </div>
+
+       
+      <div className="name">
+        <h1 className='lyric'>LYRIC<h1 className='ocean'>OCEAN</h1></h1>
+      </div>
+    
+      
       <div className="row">
         {
           props.allTracks
