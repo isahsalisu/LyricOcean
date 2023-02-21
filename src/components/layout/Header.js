@@ -17,9 +17,19 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="mobile-nav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+              <li className="nav-item-1">
               <Link className="nav-link" to="/">
                 Home
+              </Link>
+            </li>
+            <li className="nav-item-2">
+              <Link className="nav-link" to="/">
+                About
+              </Link>
+            </li>
+            <li className="nav-item-3">
+              <Link className="nav-link" to="/">
+                Contact
               </Link>
             </li>
           </ul>
