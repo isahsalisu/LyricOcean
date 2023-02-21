@@ -4,7 +4,7 @@ import React from 'react';
 
 const Track = (props) => {
   return (
-    <div className="col-md-6">
+    <div className="col-md-12">
       <div className="card mb-4 shadow-sm">
         <div className="card-body">
           <h5 className="card-title">{props.song}</h5>
