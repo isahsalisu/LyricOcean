@@ -1,5 +1,5 @@
-import { useState } from "react";
-import $ from "jquery";
+import { useState } from 'react';
+import $ from 'jquery';
 export default function SearchPage() {
   const [userInput, setUserInput] = useState("");
   const [songData, setSongData] = useState([]);

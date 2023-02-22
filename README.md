@@ -1,22 +1,33 @@
-
 # Lyric Ocean
 Get your music deep
 
+(Created by Group 7 "RED-co-DER" : Iryna Lototska, Salisu Isah, Swetha Nagaraja)
+
+## Description
+The React application, which will help user to search song lyrics. This music app also show top-10 tracks.
+
 ## User Story
-To build a Lyric Search app that allows users to type lyrics and search for music based on it using an external API.
+As a music lover, I want to see TOP-10 songs on the main page and to have option to read lyrics. I want to be able search song lyrics by writting a song title or artist name. 
 
-## Acceptance Criteria
+  ### Table of Contents
+- [Installation](#installation)
+- [Structure](#structure)
+- [Netlify](#netlify)
+- [Technologies](#technologies)
+- [License](#license)
+- [GitHub](#github)
 
-It is done when the app is built meeting the following requirements
-* Use React.
-* Use Node.js.
-* Have GET and POST routes for retrieving and adding new data.
-* Be deployed using Netlify.
-* Use at least two libraries, packages, or technologies that we haven't discussed.
-* Have a polished front end/UI.
-* Meet good quality coding standards (indentation, scoping, naming).
-* Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed 
-    application).
+## Installation
+1. Pull code from Github repository.
+2. Run "npm install" to install dependencies.
+3. Run "npm start" to start the development server.
+4. Open http://localhost:3000 to view the app in the browser.
+
+### Structure
+The webpage includes a navigation bar: Home, Search, Contact:
+- Home : will show top-10 songs.
+- Search : for searching lyrics.
+- Contacts : to contact with owners (for questions or commercial proposals).
 
 << App Screenshots >>
 
@@ -25,46 +36,21 @@ It is done when the app is built meeting the following requirements
 ![]()
 ![]()
 
-
-## Quick Start
-### Install dependencies
-```
-npm install
-```
-
-### Start the Dev Server
-```
-npm start
-```
-
-
-Open http://localhost:3000 to view the app in the browser
-
-## Live link – 
-<< >>
-
-## Netlify deployment -
+## Netlify -
 The app is deployed on Netlify and can be accessed at – << >>
 
-## Technologies Used:
+## Technologies 
 
-* The app uses the Musixmatch API to retrieve the lyrics and displays them to the user.
+* The Musixmatch API
 * React
 * Node.js
 * HTML
-* CSS
+* CSS 
 * JavaScript
 * React Bootstrap
 
-## Tools Used:
-
-* VS Code
-* Google draw
-* GitHub
-* Netlify
-
-## Presentation Link - 
-<< >>
-
 ## License
-MIT
+MIT License
+
+## GitHub
+[https://github.com/isahsalisu/LyricOcean](https://github.com/isahsalisu/LyricOcean) 
