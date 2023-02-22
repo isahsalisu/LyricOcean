@@ -67,6 +67,7 @@
   .card-title{
     color: #61dafb;
   }
+
   .btn{
     color: #df0a0a;
   }
@@ -88,4 +89,32 @@
     color: #df0a0a !important;
   
   }
+
+  #song{
+    align-items: flex-end;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #song, button {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #61dafb;
+    
+  }
+  .songContainer {
+    /* display: flex; */
+    justify-content: center;
+  }
+
+  .nosong {
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  
   

@@ -105,13 +105,13 @@ export default function SearchPage() {
   console.log(userInput)
   return (
     <>
-      <h2>Search</h2>
+      <h2 className='sarch'>Search</h2>
       <label>Song Name</label>
       <input id="song" type="text" onChange={handleChange} />
       <button onClick={HandleSubmit}>Search </button>
       <div className="songContainer">
         {searching && songData.length === 0 ? (
-          <h3>Can't find that song</h3>
+          <h3 ClassName='nosong'>Can't find that song</h3>
         ) : (
           songData.map((item, index) => (
             <div className="card" key={index}>
