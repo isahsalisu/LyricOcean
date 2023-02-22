@@ -94,23 +94,36 @@ body{
   }
 
 #song{
-  margin: 10px 0px 0px 100px;
+  margin: 10px 0px 0px 500px;
+  padding: 25px 75px;
+  background-color: #61dafb;
   align-items: center;
-  padding: 45px 200px;
+  display: flex-end;
 }
 
  button{
   color: white !important;
    background-color: #df0a0a !important;
-   width: 400px;
-   padding: 45px;
+   width: 120px;
+   padding:25px;
    margin: 10px;
+   border-radius: 75%;
  }
 
  h2{
   margin: 100px 20px 10px -110px !important;
   color: #df0a0a;
  }
-  
-  
-  
+
+ 
+.songContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+
+
+
+ 
