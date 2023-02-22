@@ -120,7 +120,7 @@ export default function SearchPage() {
               {item.track.has_lyrics === 0 ? (
                 <h6>No lyrics for this song</h6>
               ) : (
-                <a href={item.track.track_share_url} target="_blank">
+                <a rel="noreferrer"  href={item.track.track_share_url} target="_blank">
                   Link to Lyrics
                 </a>
               )}
