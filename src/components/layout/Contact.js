@@ -6,10 +6,7 @@
 const Contact = () => {
   return (
     <>
-      {/* <div className={styles.grid}>
-        <h1 className={styles.heading}>Contact Component</h1>
-        <p className={styles.text}>This is the contact page.</p>
-      </div> */}
+      
 
       <form className="form">
         <h3>Contact Us</h3>

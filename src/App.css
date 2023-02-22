@@ -1,3 +1,9 @@
+body{
+  padding: 0;
+}
+
+
+
 .navbar {
     position: fixed;
     left: 0;
@@ -90,7 +96,7 @@
   
   }
 
-  #song{
+   #song{
     align-items: flex-end;
     width: 25%;
     text-align: center;
@@ -117,7 +123,7 @@
 
     display: flex;
     justify-content: center;
-  }
-  
+  } 
+   
   
   
