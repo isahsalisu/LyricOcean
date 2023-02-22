@@ -1,13 +1,8 @@
-
-
-
- import React from 'react';
+import React from "react";
 
 const Contact = () => {
   return (
     <>
-      
-
       <form className="form">
         <h3>Contact Us</h3>
 
@@ -32,5 +27,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
