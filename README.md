@@ -1,8 +1,9 @@
 # Lyric Ocean
 Get your music deep
+
 (Created by Group 7 "RED-co-DER" : Iryna Lototska, Salisu Isah, Swetha Nagaraja)
 
-##Description 
+## Description
 The React application, which will help user to search song lyrics. This music app also show top-10 tracks.
 
 ## User Story
@@ -19,7 +20,7 @@ As a music lover, I want to see TOP-10 songs on the main page and to have option
 ## Installation
 1. Pull code from Github repository.
 2. Run "npm install" to install dependencies.
-3 Run "npm start" to start the development server.
+3. Run "npm start" to start the development server.
 4. Open http://localhost:3000 to view the app in the browser.
 
 ### Structure
@@ -51,5 +52,5 @@ The app is deployed on Netlify and can be accessed at – << >>
 ## License
 MIT License
 
-###GitHub
+## GitHub
 [https://github.com/isahsalisu/LyricOcean](https://github.com/isahsalisu/LyricOcean) 
