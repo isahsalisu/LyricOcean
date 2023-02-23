@@ -42,7 +42,7 @@ export default function SearchPage() {
     <>
       <h2 className="search">Get Your Song Lyrics</h2>
       <label></label>
-      <input id="song" type="text" onChange={handleChange} placeholder="Type your artist name" />
+      <input id="song" type="text" onChange={handleChange} placeholder="Type your song title or artist name" />
 
       <button onClick={HandleSubmit}>Search </button>
       <div className="songContainer">

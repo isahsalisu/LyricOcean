@@ -13,9 +13,10 @@ As a music lover, I want to see TOP-10 songs on the main page and to have option
 - [Installation](#installation)
 - [Structure](#structure)
 - [Netlify](#netlify)
+- [GitHub](#github)
 - [Technologies](#technologies)
 - [License](#license)
-- [GitHub](#github)
+
 
 ## Installation
 1. Pull code from Github repository.
@@ -31,22 +32,34 @@ The webpage includes a navigation bar: Home, Search, Contact:
 
 << App Screenshots >>
 
-![Home page](./src/screenshots/Homepic1.png)
+![Home page](./src/screenshots/Home3.png)
 
-![Search Page](./src/screenshots/Searchpic1.png)
+![Search Page](./src/screenshots/Search2pic.png)
 
-![Search Page](./src/screenshots/Searchpic2.png)
+![Search Page](./src/screenshots/Search2bpic.png)
 
-![Search Page](./src/screenshots/Searchpic1Example.png)
+![Search Page](./src/screenshots/Search2bpicExample.png)
 
-![Search Page](./src/screenshots/Searchpic3.png)
+![Search Page](./src/screenshots/example_2.png)
 
-![Contact Page](./src/screenshots/Contactpic1.png)
+![Contact Page](./src/screenshots/Contact3.png)
 
 
 
 ## Netlify -
-The app is deployed on Netlify and can be accessed at – << >>
+The app is deployed on Netlify and can be accessed at – 
+
+[https://lyricalocean.netlify.app/](https://lyricalocean.netlify.app/) 
+
+
+## GitHub -
+
+The app is deployed on Github and can be accessed at –
+
+[https://github.com/isahsalisu/LyricOcean](https://github.com/isahsalisu/LyricOcean) 
+
+
+
 
 ## Technologies 
 
@@ -61,12 +74,7 @@ The app is deployed on Netlify and can be accessed at – << >>
 ## License
 MIT License
 
-## GitHub
-[https://github.com/isahsalisu/LyricOcean](https://github.com/isahsalisu/LyricOcean) 
 
-## Netlify
-
-[https://lyricalocean.netlify.app/](https://lyricalocean.netlify.app/) 
 
 
 
