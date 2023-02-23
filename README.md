@@ -31,10 +31,19 @@ The webpage includes a navigation bar: Home, Search, Contact:
 
 << App Screenshots >>
 
-![]()
-![]()
-![]()
-![]()
+![Home page](./src/screenshots/Homepic1.png)
+
+![Search Page](./src/screenshots/Searchpic1.png)
+
+![Search Page](./src/screenshots/Searchpic2.png)
+
+![Search Page](./src/screenshots/Searchpic1Example.png)
+
+![Search Page](./src/screenshots/Searchpic3.png)
+
+![Contact Page](./src/screenshots/Contactpic1.png)
+
+
 
 ## Netlify -
 The app is deployed on Netlify and can be accessed at – << >>
@@ -54,3 +63,10 @@ MIT License
 
 ## GitHub
 [https://github.com/isahsalisu/LyricOcean](https://github.com/isahsalisu/LyricOcean) 
+
+## Netlify
+
+[https://lyricalocean.netlify.app/](https://lyricalocean.netlify.app/) 
+
+
+

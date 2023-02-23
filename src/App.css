@@ -1,11 +1,11 @@
-.navbar {
+
+   navbar {
     position: fixed;
     left: 0;
     top: 0;
     width: 200px;
     background-color: #df0a0a !important ;
     height: 100%;
-    z-index: 10;
   }
   .navbar-brand{
     margin-bottom: 120px;
@@ -24,16 +24,22 @@
     margin-left: -100px;
     margin-top: 140px;
   }
-
-  .image{ 
-    position: fixed;
-    width: 50%;
+  .image{
+    /* position: fixed; */
+    width: 40%;
     height: 100%;
     background-image: url(components/tracks/ocean.jpg);
     background-size: cover;
-    margin: 0 30% 0 40%;
+    margin: 0 30% 0 50%;
     box-shadow: 20px 20px 20px#df0a0a;
+    float: right;
+    position: fixed;
+    top: 200px;
+    right: 20;
+    padding:5px;
+  
   }
+
 
   .lyric{
     position: relative;
@@ -52,9 +58,7 @@
   }
   .deep{
     color: #61dafb;
- 
   }
-
   .card{
     width: 400px;
     margin-bottom: 20px;
@@ -67,43 +71,41 @@
   .card-title{
     color: #61dafb;
   }
-
   .btn{
     color: #df0a0a;
   }
-
-  form{
-    width: 500px;
-    margin: 35px auto;
-    padding: 45px;
-    border: 2px solid #f2f2f2;
-    background-color: white;
-    text-align: center;
-  }
-
-  .boto{
-
-  color: #df0a0a !important;
-  }
-
-#song{
-  margin: 10px 0px 0px 400px;
+  #song{
+  margin: 10px 0px 0px 500px;
   padding: 25px 75px;
-  background-color: #ffffff;
-  width: 500px !important;
+  background-color: #fff;
+  align-items: center;
   display: flex-end;
 }
 
  button{
   color: white !important;
    background-color: #df0a0a !important;
-   width: 100px;
+   width: 120px;
    padding:25px;
    margin: 10px;
+   border-radius: 25%;
  }
 
+ form{
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 2px solid #f2f2f2;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  padding:20px;
+}
+
  h2{
-  margin: 100px 20px 10px -110px ;
+  margin: 100px 20px 10px -110px !important;
   color: #df0a0a;
  }
 
@@ -117,5 +119,7 @@
 
 
 
-
- 
+  
+  
+  
+  

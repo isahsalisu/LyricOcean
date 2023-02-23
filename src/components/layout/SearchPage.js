@@ -1,5 +1,7 @@
+
 import { useState } from 'react';
 import $ from 'jquery';
+
 export default function SearchPage() {
   const [userInput, setUserInput] = useState("");
   const [songData, setSongData] = useState([]);
@@ -8,7 +10,10 @@ export default function SearchPage() {
   function handleChange(event) {
     setUserInput(event.target.value);
   }
+
   function HandleSubmit() {
+
+    if (userInput.length < 2) return;
     setSearching(true);
     $.ajax({
       type: "GET",
@@ -30,12 +35,15 @@ export default function SearchPage() {
       },
     });
   }
+
   console.log(userInput);
+
   return (
     <>
-      <h2 className="search">Get your lyrics song</h2
-      <label>Song Name</label>
-      <input id="song" type="text" onChange={handleChange} />
+      <h2 className="search">Get Your Song Lyrics</h2>
+      <label></label>
+      <input id="song" type="text" onChange={handleChange} placeholder="Type your artist name" />
+
       <button onClick={HandleSubmit}>Search </button>
       <div className="songContainer">
         {searching && songData.length === 0 ? (
@@ -63,3 +71,4 @@ export default function SearchPage() {
     </>
   );
 }
+

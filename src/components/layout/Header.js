@@ -17,17 +17,17 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="mobile-nav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item-1">
+            <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
               </Link>
             </li>
-            <li className="nav-item-2">
+            <li className="nav-item">
               <Link className="nav-link" to="/search">
                 Search
               </Link>
             </li>
-            <li className="nav-item-3">
+            <li className="nav-item">
               <Link className="nav-link" to="/contact">
                 Contact
               </Link>
