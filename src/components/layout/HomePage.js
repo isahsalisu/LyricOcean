@@ -8,7 +8,8 @@ const HomePage = () => {
     $.ajax({
       type: "GET",
       data: {
-        apikey: "6b6b75aa2cea775de78fdeab6837ab17",
+        apikey: "14aab7e62d4061cc06ea3842feb6fcfe",
+
         chart_name: "top",
         format: "jsonp",
         callback: "jsonp_callback",
