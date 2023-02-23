@@ -33,7 +33,7 @@ export default function SearchPage() {
   console.log(userInput);
   return (
     <>
-      <h2 className="search">Get your lyrics song</h2>
+      <h2 className="search">Get your lyrics song</h2
       <label>Song Name</label>
       <input id="song" type="text" onChange={handleChange} />
       <button onClick={HandleSubmit}>Search </button>
