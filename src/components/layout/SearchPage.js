@@ -18,7 +18,7 @@ export default function SearchPage() {
     $.ajax({
       type: "GET",
       data: {
-        apikey: "6b6b75aa2cea775de78fdeab6837ab17",
+        apikey: "14aab7e62d4061cc06ea3842feb6fcfe",
         q_track: userInput,
         f_has_lyrics: true,
         s_artist_rating: "desc",
